@@ -6,7 +6,7 @@ import FileBase from 'react-file-base64'
 import { createCoePost, updateCoePost } from '../../actions/coePosts'
 import './CoeForm.css'
 import useStyles from './styles'
-import CoeModal from './CoeModal'
+// import CoeModal from './CoeModal'
 
 
 const CoeForm = ({ currentId, setCurrentId}) => {
@@ -74,7 +74,8 @@ const CoeForm = ({ currentId, setCurrentId}) => {
             <Button className={classes.submit} variant="contained" size="large" type="submit" fullWidth>Submit</Button>
             {/*<Button variant="contained" color="secondary" size="small" onClick={clear} fullWidth>Clear</Button>*/}
         </form>
-        <CoeModal/>
+        {/*<CoeModal/>*/}
+        
     </div>
   )
 }

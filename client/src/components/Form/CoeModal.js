@@ -91,7 +91,7 @@ const CoeModal = ({ currentId, setCurrentId }) => {
   return (
     <div>
       <button type="button" onClick={handleOpen}>
-        Open Modal
+        Open Modals
       </button>
       <Modal
         open={open}
